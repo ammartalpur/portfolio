@@ -3,32 +3,33 @@ import { ArrowRight, ExternalLink, Github } from "lucide-react";
 const projects = [
   {
     id: 1,
-    title: "SaaS Landing Page",
-    description: "A beautiful landing page app using React and Tailwind.",
-    image: "/projects/project1.png",
-    tags: ["React", "TailwindCSS", "Supabase"],
-    demoUrl: "#",
-    githubUrl: "#",
+    title: "Socialogram ",
+    description:
+      "Socialogram, a full-stack social media web application built using modern web technologies with a strong focus on performance, scalability, and clean UI by using the power of Next.Js.",
+    image: "/projects/project1.PNG",
+    tags: ["Next.js", "TailwindCSS", "Supabase", "Zod/Cloudinary"],
+    demoUrl: "https://next-social-gamma.vercel.app/",
+    githubUrl: "https://github.com/ammartalpur/next-social",
   },
   {
     id: 2,
-    title: "Orbit Analytics Dashboard",
+    title: "Roozgar Job Portal",
     description:
-      "Interactive analytics dashboard with data visualization and filtering capabilities.",
-    image: "/projects/project2.png",
-    tags: ["TypeScript", "D3.js", "Next.js"],
-    demoUrl: "#",
-    githubUrl: "#",
+      "Roozgar is a modern job portal built with React.js, designed to seamlessly connect job seekers with recruiters.",
+    image: "/projects/project2.PNG",
+    tags: ["TypeScript", "Supabase", "Next.js"],
+    demoUrl: "https://roozgar-jobportal.vercel.app/",
+    githubUrl: "https://github.com/ammartalpur/roozgar-jobportal",
   },
   {
     id: 3,
-    title: "E-commerce Platform",
+    title: "Digital Voting System",
     description:
-      "Full-featured e-commerce platform with user authentication and payment processing.",
-    image: "/projects/project3.png",
-    tags: ["React", "Node.js", "Stripe"],
+      "Ditigal Voting System created in C++ with web based GUI and Facial Veification.",
+    image: "/projects/project3.PNG",
+    tags: ["Javascript", "HTML/CSS/EJS", "C++"],
     demoUrl: "#",
-    githubUrl: "#",
+    githubUrl: "https://github.com/ammartalpur/digital_voting_system",
   },
 ];
 
@@ -63,7 +64,10 @@ export const ProjectsSection = () => {
               <div className="p-6">
                 <div className="flex flex-wrap gap-2 mb-4">
                   {project.tags.map((tag) => (
-                    <span className="px-2 py-1 text-xs font-medium border rounded-full bg-secondary text-secondary-foreground">
+                    <span
+                      key={tag}
+                      className="px-2 py-1 text-xs font-medium border rounded-full bg-secondary text-secondary-foreground"
+                    >
                       {tag}
                     </span>
                   ))}
@@ -100,7 +104,7 @@ export const ProjectsSection = () => {
           <a
             className="cosmic-button w-fit flex items-center mx-auto gap-2"
             target="_blank"
-            href="https://github.com/machadop1407"
+            href="https://github.com/ammartalpur"
           >
             Check My Github <ArrowRight size={16} />
           </a>
