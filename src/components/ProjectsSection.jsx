@@ -6,7 +6,7 @@ const projects = [
     title: "Socialogram ",
     description:
       "Socialogram, a full-stack social media web application built using modern web technologies with a strong focus on performance, scalability, and clean UI by using the power of Next.Js.",
-    image: "/projects/project1.PNG",
+    image: "/projects/project1.png",
     tags: ["Next.js", "TailwindCSS", "Supabase", "Zod/Cloudinary"],
     demoUrl: "https://next-social-gamma.vercel.app/",
     githubUrl: "https://github.com/ammartalpur/next-social",
@@ -16,7 +16,7 @@ const projects = [
     title: "Roozgar Job Portal",
     description:
       "Roozgar is a modern job portal built with React.js, designed to seamlessly connect job seekers with recruiters.",
-    image: "/projects/project2.PNG",
+    image: "/projects/project2.png",
     tags: ["TypeScript", "Supabase", "Next.js"],
     demoUrl: "https://roozgar-jobportal.vercel.app/",
     githubUrl: "https://github.com/ammartalpur/roozgar-jobportal",
@@ -26,7 +26,7 @@ const projects = [
     title: "Digital Voting System",
     description:
       "Ditigal Voting System created in C++ with web based GUI and Facial Veification.",
-    image: "/projects/project3.PNG",
+    image: "/projects/project3.png",
     tags: ["Javascript", "HTML/CSS/EJS", "C++"],
     demoUrl: "#",
     githubUrl: "https://github.com/ammartalpur/digital_voting_system",
