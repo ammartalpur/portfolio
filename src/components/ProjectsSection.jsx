@@ -31,6 +31,51 @@ const projects = [
     demoUrl: "#",
     githubUrl: "https://github.com/ammartalpur/digital_voting_system",
   },
+  {
+    id: 4,
+    title: "Sportz - Websocket Project",
+    description:
+      "Sportz is a modern real-time sports tracking platform built to manage matches, live commentary, and instant updates for connected clients using WebSockets..",
+    image: "/projects/project4.PNG",
+    tags: [
+      "Next.js",
+      "Node(Express.js)",
+      "PostgreSQL",
+      "Drizzle ORM",
+      "WebSockets",
+      "Zod",
+      "Arcjet",
+    ],
+    demoUrl: "#",
+    githubUrl: "https://github.com/ammartalpur/sportz-websockets",
+  },
+  {
+    id: 5,
+    title: "Software House OS",
+    description:
+      "A comprehensive, role-based Project and Task Management operating system designed specifically for software development agencies. This system serves as a custom-tailored alternative to Jira or Trello, enforcing a strict, professional pipeline from project creation to Quality Assurance (QA) delivery.",
+    image: "/projects/project5.PNG",
+    tags: ["Next.js 15", " Tailwind CSS", "PostgreSQL", "Prisma", "Clerk"],
+    demoUrl: "#",
+    githubUrl: "https://github.com/ammartalpur/software-house-os",
+  },
+  {
+    id: 6,
+    title: "ProKitchen POS System",
+    description:
+      "A high-performance, real-time Point of Sale (POS) and Kitchen Display System (KDS) designed for modern restaurant environments. Built with a focus on operational speed, data integrity, and real-time synchronization between the front-of-house and back-of-house.",
+    image: "/projects/project6PNG",
+    tags: [
+      "Next.js 15",
+      "Tailwind CSS",
+      "PostgreSQL",
+      "Websockets",
+      "Clerk",
+      "Cloudinary",
+    ],
+    demoUrl: "#",
+    githubUrl: "https://github.com/ammartalpur/point-of-sale",
+  },
 ];
 
 export const ProjectsSection = () => {
