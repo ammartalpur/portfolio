@@ -64,7 +64,7 @@ const projects = [
     title: "ProKitchen POS System",
     description:
       "A high-performance, real-time Point of Sale (POS) and Kitchen Display System (KDS) designed for modern restaurant environments. Built with a focus on operational speed, data integrity, and real-time synchronization between the front-of-house and back-of-house.",
-    image: "/projects/project6PNG",
+    image: "/projects/project6.PNG",
     tags: [
       "Next.js 15",
       "Tailwind CSS",
